@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Text } from "@/component/element";
 import { breakpointEnums } from "@/theme";
 
-const { SM, LG } = breakpointEnums;
+const { SM, MD, LG } = breakpointEnums;
 
 const RWDImg = styled.img`
 	display: inline-block;
@@ -19,12 +19,10 @@ const RWDImg = styled.img`
 `;
 
 const RWDText = styled(Text)`
-	${({ theme }) => theme.breakpoints.up(SM)} {
-		font-size: 24px;
-	}
+	font-size: 20px;
 
-	${({ theme }) => theme.breakpoints.down(SM)} {
-		font-size: 20px;
+	${({ theme }) => theme.breakpoints.up(MD)} {
+		font-size: 24px;
 	}
 `
 
@@ -32,7 +30,7 @@ const RWDIconLayout = styled.div`
 	display: flex;
 	gap: 16px;
 
-	${({ theme }) => theme.breakpoints.down(SM)} {
+	${({ theme }) => theme.breakpoints.down(MD)} {
 		display: none;
 	}
 `;

@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
 
 	@font-face {
 		font-family: MantouSansRegular;
-		src: url(../public/MantouSans-Regular.ttf);
+		src: url(src/asset/font/MantouSans-Regular.ttf);
 	}
 `
 

@@ -21,6 +21,9 @@ const theme = {
 	textSecondary: "#94A3B8",
 	bgColorTheme1: "#FDFCFB",
 	bgColorTheme2: "#FDFCFB",
+	paddings: {
+		s: '12px 16px'
+	},
 }
 
 export {

@@ -1,9 +1,14 @@
-import RootPage from './page/root';
+import { NavBarSection, HeroSection, LoopSection } from "@/section";
 
-function App() {
-  return (
-		<RootPage/>
-  );
-}
+const App = () => {
 
-export default App
+	return (
+		<>
+			<NavBarSection/>
+			<HeroSection/>
+			<LoopSection/>
+		</>
+	)
+};
+
+export default App;

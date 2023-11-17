@@ -28,8 +28,8 @@ const NavBarSection = () => {
 							src={LogoPng}
 						/>
 						<RWDText 
-							color={primaryTheme}
-							weight="700"
+							$color={primaryTheme}
+							$weight="700"
 						>
 							喵立翰 Miao Li-Han
 						</RWDText>
