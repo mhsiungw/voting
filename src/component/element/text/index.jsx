@@ -4,8 +4,8 @@ export default styled.span`
 	display: inline-block;
 	color: ${({ $color }) => $color};
 	background-color: ${({ $bg }) => $bg};
-	font-size: ${({ size }) => size};
-	font-weight: ${({ weight }) => weight};
+	font-size: ${({ $size }) => $size};
+	font-weight: ${({ $weight }) => $weight};
 	padding: ${({ $p, theme }) => theme.paddings[$p]};
 	border-radius: ${({ $isRound, $borderRadius }) => {
 		console.log('$isRound', $isRound);

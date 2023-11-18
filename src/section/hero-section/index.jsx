@@ -14,13 +14,10 @@ const RWDH2 = styled(H2)`
 `;
 
 const RWDImg = styled.img`
-	width: 327;
-	height: 255px;
-
-	${({ theme }) => theme.breakpoints.up(LG)} {
-		width: 723px;
-		height: 537px;
-	}
+  display: block;
+  width: auto;
+  height: 100%;
+	max-width: 100%;
 `;
 
 const RWDPosition = styled(Text)`
@@ -56,12 +53,11 @@ const RWDNumber = styled(Text)`
 `;
 
 const Style = styled.div`
-	margin: 32px 16px 16px 16px;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 5px;
+	height: 100%;
 `;
 
 const RWDH2Wrapper = styled.div`
@@ -90,15 +86,12 @@ const RWDIntroWrapper = styled.div`
 `;
 
 const RWDImgWrapper = styled.div`
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: end;
 	gap: 12px;
-
-	${({ theme }) => theme.breakpoints.up(MD)} {
-		flex-direction: row;
-		justify-content: center;
-	}
+	flex: 1;
 `;
 
 const RWDNameWrapper = styled.div`

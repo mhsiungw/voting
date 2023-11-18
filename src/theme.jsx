@@ -20,7 +20,7 @@ const theme = {
 	textPrimary: "#334155",
 	textSecondary: "#94A3B8",
 	bgColorTheme1: "#FDFCFB",
-	bgColorTheme2: "#FDFCFB",
+	bgColorTheme2: "#F7ECE1",
 	paddings: {
 		s: '12px 16px'
 	},
