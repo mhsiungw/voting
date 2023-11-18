@@ -3,6 +3,7 @@ import {
 	HeroSection,
 	LoopSection,
 	AdvocacySection,
+	EventSection,
 } from '@/section';
 import styled from 'styled-components';
 
@@ -29,6 +30,7 @@ const App = () => {
 				<LoopSection />
 			</Viewport100>
 			<AdvocacySection />
+			<EventSection/>
 		</>
 	);
 };
