@@ -4,6 +4,7 @@ import {
 	LoopSection,
 	AdvocacySection,
 	EventSection,
+	PolicySection,
 } from '@/section';
 import styled from 'styled-components';
 
@@ -31,6 +32,7 @@ const App = () => {
 			</Viewport100>
 			<AdvocacySection />
 			<EventSection/>
+			<PolicySection/>
 		</>
 	);
 };
