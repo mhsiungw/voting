@@ -11,6 +11,8 @@ import Event3Png from './img/event3.png';
 import Policy1Png from './img/policy1.png';
 import Policy2Png from './img/policy2.png';
 import Policy3Png from './img/policy3.png';
+import DonatePng from './img/donate.png';
+import MailPng from './img/mail.png';
 
 export {
 	FacebookIcon,
@@ -25,4 +27,6 @@ export {
 	Policy1Png,
 	Policy2Png,
 	Policy3Png,
+	DonatePng,
+	MailPng,
 };

@@ -4,6 +4,7 @@ import LoopSection from './loop-section';
 import AdvocacySection from './advocacy-section';
 import EventSection from './event-section';
 import PolicySection from './policy-section';
+import ActionSection from './action-section';
 
 export {
 	NavBarSection,
@@ -12,4 +13,5 @@ export {
 	AdvocacySection,
 	EventSection,
 	PolicySection,
+	ActionSection,
 };

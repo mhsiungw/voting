@@ -5,6 +5,7 @@ import {
 	AdvocacySection,
 	EventSection,
 	PolicySection,
+	ActionSection,
 } from '@/section';
 import styled from 'styled-components';
 
@@ -33,6 +34,7 @@ const App = () => {
 			<AdvocacySection />
 			<EventSection/>
 			<PolicySection/>
+			<ActionSection/>
 		</>
 	);
 };
