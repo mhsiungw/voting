@@ -6,6 +6,7 @@ import EventSection from './event-section';
 import PolicySection from './policy-section';
 import ActionSection from './action-section';
 import BeforeFooterSection from './before-footer-section';
+import FooterSection from './footer-section';
 
 export {
 	NavBarSection,
@@ -16,4 +17,5 @@ export {
 	PolicySection,
 	ActionSection,
 	BeforeFooterSection,
+	FooterSection,
 };
