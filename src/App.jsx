@@ -6,6 +6,7 @@ import {
 	EventSection,
 	PolicySection,
 	ActionSection,
+	BeforeFooterSection,
 } from '@/section';
 import styled from 'styled-components';
 
@@ -35,6 +36,7 @@ const App = () => {
 			<EventSection/>
 			<PolicySection/>
 			<ActionSection/>
+			<BeforeFooterSection/>
 		</>
 	);
 };
