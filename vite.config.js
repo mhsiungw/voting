@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 import * as path from 'path';
 
 export default defineConfig({
+	base: '/voting/',
   plugins: [react()],
 	resolve: {
 		alias: [
